@@ -1,0 +1,11 @@
+<configuration>
+    <input>
+        <net-file value="single-intersection.net.xml"/>
+        <route-files value="single-intersection.rou.xml"/>
+        <junction-taz value="true"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="1000000"/>
+    </time>
+</configuration>

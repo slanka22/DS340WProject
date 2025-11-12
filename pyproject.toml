@@ -1,0 +1,13 @@
+[project]
+name = 'traffic_dojo'
+requires-python = ">=3.8"
+version = "1.0.0"
+authors = [
+    {name = "Pan He", email = "pan.he@auburn.edu"},
+]
+
+[tool.setuptools.packages.find]
+where = ["."]  # list of folders that contain the packages (["."] by default)
+include = ["meta_traffic"]  # package names should match these glob patterns (["*"] by default)
+exclude = []  # exclude packages matching these glob patterns (empty by default)
+namespaces = false  # to disable scanning PEP 420 namespaces (true by default)

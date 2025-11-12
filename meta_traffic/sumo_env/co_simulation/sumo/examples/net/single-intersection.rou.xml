@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-10-08 21:41:46 by Eclipse SUMO netedit Version 1.18.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- Routes -->
+    <route id="r_0" edges="E0 E3"/>
+    <route id="r_1" edges="-E2 E1"/>
+    <route id="r_2" edges="-E3 -E0"/>
+    <route id="r_3" edges="-E1 E2"/>
+    <route id="r_4" edges="E0 E1"/>
+    <route id="r_5" edges="-E2 -E0"/>
+    <route id="r_6" edges="-E3 E2"/>
+    <route id="r_7" edges="-E1 E3"/>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <!-- <personFlow id="pf_0" begin="0.00" end="100000.00" personsPerHour="20.00">
+        <personTrip from="-E2" to="E1" lines="ANY"/>
+    </personFlow>
+    <personFlow id="pf_1" begin="0.00" end="100000.00" personsPerHour="20.00">
+        <personTrip from="-E3" to="-E0" lines="ANY"/>
+    </personFlow>
+    <personFlow id="pf_2" begin="0.00" end="100000.00" personsPerHour="20.00">
+        <personTrip from="E0" to="E3" lines="ANY"/>
+    </personFlow>
+    <personFlow id="pf_3" begin="0.00" end="100000.00" personsPerHour="20.00">
+        <personTrip from="-E1" to="E2" lines="ANY"/>
+    </personFlow>
+    <personFlow id="pf_4" begin="0.00" end="100000.00" personsPerHour="20.00">
+        <personTrip from="E0" to="E1" lines="ANY"/>
+    </personFlow> -->
+    <!-- <flow id="f_0" begin="0.00" route="r_4" end="100000.00" vehsPerHour="500.00"/> -->
+    <flow id="f_1" begin="0.00" route="r_0" end="100000.00" vehsPerHour="500.00"/>
+    <!-- <flow id="f_2" begin="0.00" route="r_5" end="100000.00" vehsPerHour="500.00"/> -->
+    <flow id="f_3" begin="0.00" route="r_1" end="100000.00" vehsPerHour="1000.00"/>
+    <!-- <flow id="f_4" begin="0.00" route="r_2" end="100000.00" vehsPerHour="200.00"/> -->
+    <flow id="f_5" begin="0.00" route="r_3" end="100000.00" vehsPerHour="1000.00"/>
+    <!-- <flow id="f_6" begin="0.00" route="r_7" end="100000.00" vehsPerHour="200.00"/>  -->
+</routes>
